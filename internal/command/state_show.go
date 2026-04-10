@@ -180,6 +180,8 @@ Options:
   -state=statefile    Path to a Terraform state file to use to look
                       up Terraform-managed resources. By default it will
                       use the state "terraform.tfstate" if it exists.
+  -json               If specified, output the resource state in a 
+               		  machine-readable form.
 
 `
 	return strings.TrimSpace(helpText)
